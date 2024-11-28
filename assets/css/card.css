@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cards{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   gap: 3%;
+    
+}
+.card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.container h1{
+   margin-left: 19%;
+   margin-bottom: 3%;
+   margin-top: 5%;
+   font-size: 50px;
+}
+
+.card-img  {
+    width: 370px;
+    height: 470px;
+    overflow: hidden;
+}
+
+.card-img img:hover{
+    transform: scale(1.1);
+   
+}
+.card-img img {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+  }
+
+  .card p :nth-child(2){
+    color: red;
+  }
+  
