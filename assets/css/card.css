@@ -3,17 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
-.cards {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 3%;
+
+
+
+
+.cards{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   gap: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.card {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 13px;
+
+.card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
 }
 .container h1 {
   margin-left: 19%;
@@ -32,6 +38,7 @@
   transform: scale(1.1);
 }
 .card-img img {
+
   width: 100%;
   height: 100%;
   transition: 1s;
@@ -98,3 +105,14 @@ button:hover {
 }
 .img:hover{ transform: scale(1.1);}
 .img {transition: 1s;}
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+  }
+
+.card p{
+   font-size:21px;
+}
+
+  
+
