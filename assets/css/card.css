@@ -43,3 +43,12 @@
     color: red;
   }
   
+  .header{
+    display: flex;
+  }
+
+  .show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
